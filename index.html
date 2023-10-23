@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta chgharset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Github Finder</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+     
+        
+    <link rel="shortcut icon" href="https://github.com/github.png" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Github<span>Finder</span></h1>
+        <div class="search-container">
+
+            <input type="text" class="query" value="" placeholder="Enter a username" />
+
+            <button type="button" onclick="getUser()">
+
+                <span class="material-icons-outlined"> search </span>
+
+            </button>
+        </div>
+
+    </header>
+
+    <main id="user-info">
+
+    </main>
+
+    <script src="finder.js"></script>
+
+</body>
+
+</html>
